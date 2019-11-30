@@ -1,0 +1,83 @@
+body
+{
+	background-color: #FFFFFF;
+}
+body h1
+{
+	font-family: "Garamond", Helvetica, sans-serif
+}
+.Shkronja h1::first-letter
+{
+	font-size: 1em;
+}
+header nav#mainMenu
+{
+
+	background-color: #E2494B;
+	text-align: right;
+	
+	padding-left: 60em;
+}
+header nav a
+{
+	color: #FFFFFF;
+
+}
+a:hover
+{
+	font-weight: bold;
+	color: #EB8486;
+}
+article div.center
+{
+padding-right: 43em;
+padding-left: 43em;
+}
+h3.action
+{
+	background-color: #E2494B;
+}
+article p h3
+{
+	text-align: center;
+}
+td a
+{
+	color: #E7686A;
+}
+td fieldset
+{
+	width: 96px;
+	height: 96px;
+}
+ div.ngjyra
+{
+	background-color: #E2E2E2;
+}
+tr.kufiri
+{
+	 border-top-style: solid;
+
+}
+tr td p
+{
+	color:#9A9A9A;
+}
+tr td p strong
+{
+	color: #E2494B;
+}
+tr td label strong
+{
+	color: #999999;
+
+}
+td
+{
+	color: #9A9A9A;
+}
+td input[type=submit]
+{
+	background-color: #E2494B;
+	color: white;
+}

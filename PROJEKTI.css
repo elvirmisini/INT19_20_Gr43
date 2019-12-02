@@ -15,8 +15,14 @@ header nav#mainMenu
 
 	background-color: #E2494B;
 	text-align: right;
-	
-	padding-left: 60em;
+	word-spacing: 1em;
+	border-radius: 5px;
+
+
+}
+.
+{
+	color: #333333;
 }
 header nav a
 {
@@ -30,14 +36,33 @@ a:hover
 }
 article div.center
 {
-padding-right: 43em;
-padding-left: 43em;
+padding-right: 23.3em;
+padding-left: 25.7em;
+}
+body
+{
+	padding-right:16.8em; 
+	padding-left:16.8em;
+}
+p.foto
+{
+	text-align: center;
+}
+div.center p
+{
+	border-radius: 5px;
+}
+h3.action
+{
+	color: white;
 }
 h3.action
 {
 	background-color: #E2494B;
+	border-radius: 20px;
+
 }
-article p h3
+h3.teksti
 {
 	text-align: center;
 }
@@ -50,8 +75,18 @@ td fieldset
 	width: 96px;
 	height: 96px;
 }
- div.ngjyra
+div.ngjyra table tr td
+
 {
+	color: #333333;
+}
+
+
+ div.ngjyra
+
+{
+	padding-left: 1em;
+	padding-right: 1em;
 	background-color: #E2E2E2;
 }
 tr.kufiri
@@ -79,5 +114,6 @@ td
 td input[type=submit]
 {
 	background-color: #E2494B;
+	border-radius: 5px;
 	color: white;
 }

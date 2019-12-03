@@ -1,6 +1,7 @@
 body
 {
 	background-color: #FFFFFF;
+	margin: auto;
 }
 body h1
 {
@@ -17,6 +18,10 @@ header nav#mainMenu
 	text-align: right;
 	word-spacing: 1em;
 	border-radius: 5px;
+	padding-right: 1em;
+	padding-bottom: 0.7em;
+	padding-top: 0.7em;
+	background-size: auto;
 
 
 }
@@ -56,6 +61,13 @@ h3.action
 {
 	color: white;
 }
+div.center
+{
+
+	padding-top: 2em;
+	padding-bottom: 1em;
+	
+}
 h3.action
 {
 	background-color: #E2494B;
@@ -80,7 +92,13 @@ div.ngjyra table tr td
 {
 	color: #333333;
 }
-
+tr.Indonectetus td label
+{
+	font-size: 1.3em;
+	color: black;
+	padding-left: 1em;
+	padding-top: 1em;
+}
 
  div.ngjyra
 
@@ -115,5 +133,28 @@ td input[type=submit]
 {
 	background-color: #E2494B;
 	border-radius: 5px;
+	padding-bottom:0.4em; 
+	padding-top:0.4em;
+	padding-right: 0.8em;
+	padding-left:0.8em;
 	color: white;
+}
+td input[type=email]
+
+{
+padding-top: 0.5em;
+	border-radius: 5px;
+}
+td input[type=name]
+{
+	padding-top: 0.5em;
+	border-radius: 5px;
+}
+td input[type=description]
+{
+	border-radius: 5px;
+}
+p.e
+{
+	padding-bottom: 0.8em;
 }

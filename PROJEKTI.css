@@ -1,7 +1,7 @@
 body
 {
 	background-color: #FFFFFF;	
-	width: 60%;
+	width: 65%;
 	margin: auto;
 }
 header{
@@ -89,9 +89,10 @@ div.center
 h3.action
 {
 	background-color: #E2494B;
-	border-radius: 20px;
-	padding-right:0.5em; 
-	padding-left:0.5em;
+	border-radius: 5px;
+
+padding-left: 0.5em;
+padding-right:0.5em;
 
 }
 h3.teksti
@@ -107,6 +108,7 @@ td fieldset
 	width: 96px;
 	height: 96px;
 }
+
 div.ngjyra table tr td
 
 {
@@ -119,8 +121,14 @@ tr.Indonectetus td label
 	padding-left: 1em;
 	padding-top: 1em;
 }
+tr.fotografite
+{
+padding-left: : 1em;
 
+}
  div.ngjyra
+}
+}
 
 {
 	padding-left: 1em;
@@ -129,7 +137,7 @@ tr.Indonectetus td label
 }
 tr.kufiri
 {
-	 border-top-style: solid;
+	 line-height: 1px;
 
 }
 tr td p
@@ -155,26 +163,32 @@ td input[type=submit]
 	border-radius: 5px;
 	padding-bottom:0.4em; 
 	padding-top:0.4em;
-	padding-right: 0.8em;
-	padding-left:0.8em;
+	padding-right: 1em;
+	padding-left:1em;
 	color: white;
+	font-size: 1em;
 }
 td input[type=email]
 
 {
 padding-top: 0.5em;
+	padding-bottom: 0.25em;
 padding-left: 1.2em;
 	border-radius: 5px;
+	text-decoration-color: grey;
 }
 td input[type=name]
 {
-	padding-top: 0.5em;
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
 padding-left: 1.2em;
 	border-radius: 5px;
+	text-decoration-color: grey;
 }
-td input[type=description]
+td textarea[name=description]
 {
 	border-radius: 5px;
+	padding-left: 1.2em;
 }
 p.e
 {

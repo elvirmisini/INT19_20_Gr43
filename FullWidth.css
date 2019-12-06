@@ -1,0 +1,47 @@
+body
+{
+	background-color: #FFFFFF;	
+	width: 65%;
+	margin: auto;
+}
+header{
+	display: flex;
+}
+.left{
+	flex:1;
+}
+.right{
+	flex:2;
+}
+a{
+	text-decoration: none;
+}
+body h1
+{
+	font-family: "Garamond", Helvetica, sans-serif
+}
+header nav ul li{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 18px;
+	display: inline;
+}
+header nav#mainMenu
+{
+
+	background-color: #E2494B;
+	text-align: right;
+	word-spacing: 0.2em;
+	border-radius: 5px;
+	padding-right: 1em;
+	padding-bottom: 0.7em;
+	padding-top: 0.7em;
+	background-size: auto;
+
+
+}header nav a
+{
+	color: #FFFFFF;
+
+}

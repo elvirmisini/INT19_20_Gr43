@@ -45,3 +45,8 @@ header nav#mainMenu
 	color: #FFFFFF;
 
 }
+a:hover
+{
+	font-weight: bold;
+	color: #EB8486;
+}

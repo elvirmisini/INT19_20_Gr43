@@ -18,11 +18,17 @@ a{
 }
 body h1
 {
-	font-family: "Garamond", Helvetica, sans-serif
+
+	font-family: "Garamond", Helvetica, sans-serif;
+
 }
-.Shkronja h1::first-letter
+h1::first-letter
 {
-	font-size: 1em;
+font-size: 1.2em;
+}
+h1
+{
+	font-weight:normal;
 }
 header nav#mainMenu
 {
@@ -69,6 +75,11 @@ body
 	padding-right:16.8em; 
 	padding-left:16.8em;
 }
+article p
+{
+	padding-bottom: 0.5em;
+	padding-top: 0.5em;
+}
 p.foto
 {
 	text-align: center;
@@ -80,7 +91,7 @@ div.center p
 h3.action
 {
 	color: white;
-	font-weight: 100;
+	font-weight: 500;
 }
 div.center
 {
@@ -99,6 +110,12 @@ padding-right:1em;
 h3.teksti
 {
 	text-align: center;
+		font-weight: 500;
+		font-family: "Frosty", Helvetica, sans-serif;
+		color:#3C3C3C;
+		font-weight: bold;
+		font-style: italic;
+
 }
 td a
 {
@@ -192,8 +209,9 @@ p.e
 }
 hr{
 	background-color: lightgrey;
-	
-	padding:1px;
 	border-style: groove;
-
+}
+label.la
+{
+	padding-bottom: 10px;
 }

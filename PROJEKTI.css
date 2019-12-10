@@ -4,6 +4,10 @@ body
 	width: 65%;
 	margin: auto;
 }
+body header
+{
+	padding-bottom: 1.5em;
+}
 header{
 	display: flex;
 }
@@ -40,6 +44,7 @@ header nav#mainMenu
 	padding-right: 1em;
 	padding-bottom: 0.7em;
 	padding-top: 0.7em;
+	font-family: "Frosty";
 	background-size: auto;
 
 
@@ -110,10 +115,9 @@ padding-right:1em;
 h3.teksti
 {
 	text-align: center;
-		font-weight: 500;
+		font-weight: 600;
 		font-family: "Frosty", Helvetica, sans-serif;
 		color:#3C3C3C;
-		font-weight: bold;
 		font-style: italic;
 
 }
@@ -142,7 +146,7 @@ div.ngjyra table tr td
 }
  div.ngjyra
 {
-	padding-bottom: 1em;
+	padding-bottom: 3em;
 	padding-left: 1em;
 	padding-right: 1em;
 	background-color: #E2E2E2;
@@ -210,8 +214,21 @@ p.e
 hr{
 	background-color: lightgrey;
 	border-style: groove;
+padding-top: 1.5px;
+padding-left: 3px;
+padding-right:3px;
 }
 label.la
 {
 	padding-bottom: 10px;
+}
+#copyright
+{
+	padding-top: 2.5em;
+}
+hr.s
+{
+	color:darkgrey;
+	padding-bottom: 1px;
+	padding: none;
 }

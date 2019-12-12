@@ -10,9 +10,23 @@
 	<title>Composition</title>
 	<link rel="stylesheet" type="text/css" href="css/22.css">
 <link rel="stylesheet" type="text/css" href="css/PROJEKTI.css">
+    <script src="/projekti.js" type="text/JavaScript"></script>
+
+
 
 </head>
-<body><header>
+<body>
+	
+<script src="projekti.js" type="text/JavaScript"></script>
+<img src="ff/darkmode.png" onclick="myFunction()" width="25px"height="25px">
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+	<header>
 	<div class="left"><h1><firstletter>C</firstletter>OMPOSITION </h1></div>
 	<div class="right">
 <nav id="mainMenu">
@@ -23,8 +37,13 @@
 		  <li>
 		  <a href="FullWidth.html">FULL WIDTH</a>	
 		  </li>
-		  <li>
-		  	<a href="DropDown.html">DROPDOWN</a>
+		   <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+ 
 		  </li>
 		  <li>
 		  	 <a href="LinkText.html">LINK TEXT</a>
@@ -68,7 +87,7 @@ erat.In fringilla massa ut nisi ullamcorper pellentesque"</h3></p>
 			<img src="ff/t.jpg" alt="portrait"width="30px"height="30px"/><label class="la">Indonectetus facilis</label>
 			<p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit entesque sed.
 			Facilispede estibullum nulla orna nisl velit elit ac aliquat non tincidut.</p>
-			<a href="#">Read More>></a>
+			<a href="#">Read More<small>>></small></a>
 					</td>
 	</tr>
 </table>
@@ -124,6 +143,7 @@ erat.In fringilla massa ut nisi ullamcorper pellentesque"</h3></p>
 	</p>
 </div>
 <hr>
+
 <table cellspacing="20">
 	<tr>
 		<td>

@@ -13,6 +13,16 @@
 <link rel="stylesheet" type="text/css" href="css/StyleDemo1.css">
 </head>
 <body>
+	
+<script src="projekti.js" type="text/JavaScript"></script>
+<img src="ff/darkmode.png" onclick="myFunction()" width="25px"height="25px">
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
 <header>
 	<div class="left"><h1>COMPOSITION </h1></div>
 	<div class="right">
@@ -23,14 +33,20 @@
 		  <li>
 		  <a href="FullWidth.html">FULL WIDTH</a>	
 		  </li>
-		  <li>
-		  	<a href="DropDown.html">DROPDOWN</a>
+		  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+ 
 		  </li>
 		  <li>
 		  	 <a href="LinkText.html">LINK TEXT</a>
 		  </li>
 	</ul>	
-</nav></div>
+</nav>
+</div>
 </header>
 </body>
 </html>

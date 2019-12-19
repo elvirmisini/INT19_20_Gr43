@@ -1,7 +1,7 @@
 body
 {
 	background-color: #FFFFFF;	
-	width: 65%;
+	width: 90%;               			    /*nga 65%*/
 	margin: auto;
 }
 .dark-mode
@@ -83,8 +83,8 @@ padding-left: 26em;
 }
 body
 {
-	padding-right:16.8em; 
-	padding-left:16.8em;
+	padding-right:0;           			 /*nga 16.8*/
+	padding-left:0;
 }
 article p
 {

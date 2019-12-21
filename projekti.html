@@ -58,8 +58,63 @@ function myFunction() {
 <p><h3 class="teksti">"Lorem ipsum dolor sit amet,conseterur adipiscing elit.Nunc non diam </br>
 erat.In fringilla massa ut nisi ullamcorper pellentesque"</h3></p>
 <p class="foto">
-	
+	<div class="slideshow">
+		<div class="slide fade">
 		<img src="ff/t.jpg" alt="portrait"width="960px"height="350px" align="middle">
+		<div class="numbertext">1 / 5</div>
+		</div>
+
+		<div class="slide fade">
+		<img src="ff/t.jpg" alt="portrait"width="960px"height="350px" align="middle">
+		<div class="numbertext">2 / 5</div>
+		</div>
+
+		<div class="slide fade">
+		<img src="ff/t.jpg" alt="portrait"width="960px"height="350px" align="middle">
+		<div class="numbertext">3 / 5</div>
+		</div>
+
+		<div class="slide fade">
+		<img src="ff/t.jpg" alt="portrait"width="960px"height="350px" align="middle">
+		<div class="numbertext">4 / 5</div>
+		</div>
+
+		<div class="slide fade">
+		<img src="ff/t.jpg" alt="portrait"width="960px"height="350px" align="middle">
+		<div class="numbertext">5 / 5</div>
+		</div>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+</div>
+</p>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("slide");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
 
 </p>
 <div class="center">
@@ -81,8 +136,8 @@ erat.In fringilla massa ut nisi ullamcorper pellentesque"</h3></p>
 			<img src="ff/t.jpg" alt="portrait"width="30px"height="30px"/><label class="la">Indonectetus facilis</label>
 			<p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit entesque sed.
 			Facilispede estibullum nulla orna nisl velit elit ac aliquat non tincidut.</p>
-			<a href="#">Read More>></a>
-					</td>
+			<a href="#">Read More<small>>></small></a>
+			</td>
 		<td>
 			<img src="ff/t.jpg" alt="portrait"width="30px"height="30px"/><label class="la">Indonectetus facilis</label>
 			<p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit entesque sed.

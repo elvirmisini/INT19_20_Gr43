@@ -53,6 +53,12 @@ a:hover
 .dropdown:hover .dropdown-content {
   display: block;
 }
+.dark-mode
+{
+
+  background-color: #1F1F1F;
+  color: white;
+}
 
 li.dropdown {
   display: inline-block;

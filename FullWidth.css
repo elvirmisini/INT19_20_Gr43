@@ -13,6 +13,12 @@ header{
 .right{
 	flex:2;
 }
+.dark-mode
+{
+
+  background-color: #1F1F1F;
+  color: white;
+}
 a{
 	text-decoration: none;
 }

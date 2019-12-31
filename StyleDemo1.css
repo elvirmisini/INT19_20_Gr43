@@ -24,7 +24,7 @@ a{
 }
 body h1
 {
-	font-family: "Garamond", Helvetica, sans-serif
+	font-family: "Garamond", Helvetica, sans-serif;
 }
 header nav ul li{
 	padding-bottom: 10px;
@@ -94,4 +94,46 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+div.background-image
+{
+	width: 980px;
+	height:540px;
+}
+div.padd
+{
+	padding-top: 1.5em;
+}
+div p.Welcome
+{
+	color: white;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 5em;
+	text-align: center;
+	padding-top: 2.6em;
+}
+p.quote
+{
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	padding-top: 7em;
+}
+div.background-image h3
+{
+	color: white;
+	text-align: center;
+}
+h3:hover
+{
+	background-color: red;
+}
+
+div.l
+{
+	width:33.3333%;
+}
+div.r
+{
+	width: 66%;
 }

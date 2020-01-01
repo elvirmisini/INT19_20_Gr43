@@ -129,11 +129,135 @@ h3:hover
 	background-color: red;
 }
 
-div.l
+div.a
 {
-	width:33.3333%;
+
+	width:300px;
+	height: 600px;
+	background-position: center;
+	border-radius: 5%;
 }
-div.r
+div.b
 {
-	width: 66%;
+	width:660px;
+	height: 500px;
+	background-position: center;
+	position: top;
+	border-radius: 5%;
+}		
+div.posht
+{
+	background-color: lightgrey;
+	height: 100px;
+	border-radius: 5%;
+
+}
+div.c
+{
+
+	width:480px;
+	height: 350px;
+	background-position: center;
+	position: top;
+	border-radius: 5%;
+}
+div.d
+{
+
+	width:480px;
+	height: 350px;
+	background-position: left;
+	position: top;
+	border-radius: 5%;
+}
+div.e
+{
+
+	width:710px;
+	height: 450px;
+	background-position: center;
+	position: top;
+	border-radius: 5%;
+}
+div.f
+{
+
+	width:250px;
+	height: 450px;
+	border-radius: 5%;
+	background-color: lightgrey;
+}
+
+div.g
+{
+
+	width:960px;
+	height: 500px;
+	border-radius: 5%;
+	background-position: center;
+}
+div.gg
+{
+	background-color: lightgrey;
+	width: 960px;
+	height: 50px;
+	border-radius: 5%;
+}
+div.h
+{
+
+	width:960px;
+	height: 500px;
+	border-radius: 5%;
+	background-position: center;	
+}
+
+div.hh
+{
+	background-position: center;
+	background-color: lightgrey;
+	width: 900px;
+	height: 100px;
+	border-radius: 5%;
+}
+div.i
+{
+width:760px;
+	height: 450px;
+	border-radius: 5%;
+	background-position: center;		
+}
+div.ii
+{
+background-color: lightgrey;
+	width: 200px;
+	height: 450px;
+	border-radius: 5%;	
+}
+
+div.ngjyra table tr td
+
+{
+	color: #333333;
+}
+ div.ngjyra
+{
+	color: grey;
+	padding-bottom: 3em;
+	padding-left: 1em;
+	padding-right: 1em;
+	background-color: #E2E2E2;
+}td input[type=submit]
+{
+	background-color: #E2494B;
+	border-radius: 5px;
+	padding-bottom:0.4em; 
+	padding-top:0.4em;
+	padding-right: 1em;
+	padding-left:1em;
+	color: white;
+	font-size: 1em;
+}tr td p strong
+{
+	color: #E2494B;
 }

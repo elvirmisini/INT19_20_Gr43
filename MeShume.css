@@ -1,0 +1,319 @@
+body
+{
+	background-color: #FFFFFF;	
+	width: 65%;
+	margin: auto;
+}
+.dark-mode
+{
+
+  background-color: black;
+  color: white;
+}
+header{
+	display: flex;
+}
+.left{
+	flex:1;
+}
+.right{
+	flex:2;
+}
+a{
+	text-decoration: none;
+}
+body h1
+{
+	font-family: "Garamond", Helvetica, sans-serif;
+}
+header nav ul li{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 18px;
+	display: inline;
+}
+header nav#mainMenu
+{
+
+	background-color: #E2494B;
+	text-align: right;
+	word-spacing: 0.2em;
+	border-radius: 5px;
+	padding-right: 1em;
+	padding-bottom: 0.7em;
+	padding-top: 0.7em;
+	background-size: auto;
+
+
+}header nav a
+{
+	color: #FFFFFF;
+
+}
+a.copy
+{
+	color: blue;
+	padding-left: 2em;
+	font-size: 1.2em;
+}
+a:hover
+{
+	font-weight: bold;
+	color: #EB8486;
+}
+hr
+{
+	
+	color:darkgrey;
+	padding-bottom: 1px;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #E2494B;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover 
+{
+	background-color: #E2494B;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+div.background-image
+{
+	width: 980px;
+	height:540px;
+}
+div.padd
+{
+	padding-top: 1.5em;
+}
+div p.Welcome
+{
+	color: white;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 5em;
+	text-align: center;
+	padding-top: 2.6em;
+}
+p.quote
+{
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	padding-top: 7em;
+}
+div.background-image h3
+{
+	color: white;
+	text-align: center;
+}
+h3:hover
+{
+	background-color: red;
+}
+
+div.a
+{
+
+	width:300px;
+	height: 600px;
+	background-position: center;
+	border-radius: 5%;
+}
+div.b
+{
+	width:660px;
+	height: 500px;
+	background-position: center;
+	position: top;
+	border-radius: 5%;
+}		
+div.posht
+{
+	height: 100px;
+
+}
+div.c
+{
+color: white;
+	width:480px;
+	height: 350px;
+	background-position: center;
+	position: top;
+	border-radius: 5%;
+}
+.brod:hover
+{
+
+	background-color: black;
+}
+div.c p
+{
+	padding-top: 15em;
+}
+div.d
+{
+color: white;
+	width:480px;
+	height: 350px;
+	background-position: left;
+	position: top;
+	border-radius: 5%;
+}
+div.d p
+{
+	padding-top: 15em;
+}
+div.e
+{
+
+	width:710px;
+	height: 450px;
+	background-position: center;
+	position: top;
+	border-radius: 5%;
+}
+div.f
+{
+
+	width:250px;
+	height: 450px;
+	border-radius: 5%;
+
+}
+div.f p
+{
+	padding-top: 2em;}
+div.f:hover
+{
+	background-color: #E2494B;
+font-weight: bold;
+}
+
+div.g
+{
+
+	width:960px;
+	height: 500px;
+	border-radius: 5%;
+	background-position: center;
+}
+div.gg:hover
+{
+	background-color: #E2494B;
+}
+div.gg p h3
+{
+
+	text-align: center;
+}
+div.gg
+{
+	width: 960px;
+	height: 60px;
+	border-radius: 5%;
+}
+div.h
+{
+
+	width:960px;
+	height: 500px;
+	border-radius: 5%;
+	background-position: center;	
+}
+div.hh:hover
+{
+	background-color:#E2494B; 
+}
+div.hh
+{
+	width: 960px;
+	height: 100px;
+	border-radius: 5%;
+}
+div.i
+{
+width:760px;
+	height: 450px;
+	border-radius: 5%;
+	background-position: center;		
+}
+div.ii:hover
+{
+background-color: #E2494B;
+font-weight: bold;
+}
+div.ii p
+{
+	padding-top: 1em;
+}
+div.ii
+{
+	width: 200px;
+	height: 450px;
+	border-radius: 5%;	
+}
+
+div.ngjyra table tr td
+
+{
+	color: #333333;
+}
+ div.ngjyra
+{
+	color: grey;
+	padding-bottom: 3em;
+	padding-left: 1em;
+	padding-right: 1em;
+	background-color: #E2E2E2;
+}td input[type=submit]
+{
+	background-color: #E2494B;
+	border-radius: 5px;
+	padding-bottom:0.4em; 
+	padding-top:0.4em;
+	padding-right: 1em;
+	padding-left:1em;
+	color: white;
+	font-size: 1em;
+}tr td p strong
+{
+	color: #E2494B;
+}
+div.a p
+{
+	color: white;
+	padding-top: 29em;
+}
+div.a p:hover
+{
+	font-weight: bold;
+}
+div.posht:hover
+{
+	background-color: #E2494B;
+	font-weight: bold;
+}

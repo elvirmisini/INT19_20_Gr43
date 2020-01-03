@@ -1,0 +1,44 @@
+body{
+	background-color: lightblue;
+}
+
+
+
+.wrapper {
+	width: 1300px;
+	margin: 70px auto;
+	background: #eee;
+}
+.sin-team {
+	width: 45%;
+	float: left;
+	margin: 12px;
+	box-shadow: 0 10px rgba(0,0,0,0.8);
+	padding: 15px;
+	color: #fff;
+	background: #262630;
+	border-radius: 15px;
+}
+.sin-team img{
+	width: 155px;
+	height: 155px;
+	border-radius: 50%;
+	float: left;
+	margin: 35px 20px 30px 0;
+	border: 5px solid lightgrey;
+	shape-outside: circle();
+}
+
+h2{
+	 font-family: audiowide;
+}
+p {
+	text-align: justify;
+	line-height: 15px;
+}
+h4{
+	color: darkblue;
+}
+footer {
+	background-color: white;
+}

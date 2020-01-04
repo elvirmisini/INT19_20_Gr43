@@ -1,0 +1,117 @@
+.permajtja_u
+{
+	width:80%;
+	margin: auto;
+}	
+.permajtja_u h3
+{
+	font-size: 150%;
+}
+.permajtja_u h3 a
+{
+	color: black;
+	text-decoration: none;
+}
+.permajtja_u h3 a:hover
+{
+	color: black;
+	text-decoration: underline;
+	font-weight: bolder;
+}
+
+.main1
+{
+	display: flex;
+}
+
+main
+{
+	background-image: linear-gradient(to right, lightblue,#F0FFFF, #F0F8FF);
+}
+
+.ushqimi1,.ushqimi2,.ushqimi3,.ushqimi4,
+.ushqimi5,.ushqimi6
+{
+	background-color: #F0F8FF;
+	background-image: linear-gradient(lightblue, #F0F8FF);
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}	
+.ushqimi1:hover, .ushqimi2:hover,.ushqimi3:hover,
+.ushqimi4:hover,.ushqimi5:hover, .ushqimi6:hover
+{
+  border: 6px solid #0099ff;
+  border-radius: 25px;
+  transform: scale(1.02);
+}
+.permajtja_u1:hover,.permajtja_u2:hover,.permajtja_u3:hover,
+.permajtja_u4:hover,.permajtja_u5:hover,.permajtja_u6:hover
+
+{
+  border: 3px solid black;
+  border-radius: 20px;
+  transition: 1s ease;
+}
+
+.permajtja_u1, .permajtja_u2, .permajtja_u3, .permajtja_u4,
+.permajtja_u5, .permajtja_u6
+{
+	padding: 20px;
+}
+.foto_u1:active,.foto_u2:active,.foto_u3:active,.foto_u4:active,
+.foto_u5:active,.foto_u6:active
+{
+	border: 5px solid white;
+	border-radius: 40px;
+	transition: 0.3s ease;
+}
+.foto_u1:hover,.foto_u2:hover,.foto_u3:hover,.foto_u4:hover,
+.foto_u5:hover,.foto_u6:hover
+{
+	transform: scale(1.05);
+}
+.foto_u1 img
+{	
+	border-radius: 25px; 
+	height: 268px;
+	width: 478px;
+}
+.foto_u2 img
+{
+	border-radius: 25px; 
+	height: 268px;
+	width: 478px;
+}
+.foto_u3 img
+{
+	border-radius: 25px; 
+	height: 268px;
+	width: 478px;
+}
+.foto_u4 img
+{
+	border-radius: 25px; 
+	height: 268px;
+	width: 478px;
+}
+.foto_u5 img
+{
+	border-radius: 25px; 
+	height: 268px;
+	width: 478px;
+}
+.foto_u6 img
+{
+	border-radius: 25px; 
+	height: 268px;
+	width: 478px;
+}
+p
+{
+	border-radius: 25px; 
+	font-family: 'Gelasio', serif;
+	font-weight: 900;
+	font-size: 120%;
+}

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-
 	<title>Composition</title>
-<link rel="stylesheet" type="text/css" href="struktura.css">
+<link rel="stylesheet" type="text/css" href="Eventet.css">
 <style type="text/css">
+	
 .right{position: absolute;}
 
 </style>
@@ -13,118 +13,600 @@
 <script src="projekti.js" type="text/JavaScript"></script>
 
 
-	<header>
+<header>
 	<div class="left" style=" display: inline-block; ">
-		<h1 style="line-height: 80%;"><firstletter>C</firstletter>OMPOSITION <br><small>Kosovo tour</small></h1></div>
+		<h1 style="line-height: 80%;"><firstletter>C</firstletter>OMPOSITION <br><small>Kosovo tour</small></h1>
+	</div>
 
 	<div class="right" style=" display: inline-block;">
-<nav id="mainMenu">
-	<ul><li><a href="projekti.html">HOMEPAGE</a></li>
-		<li>
-		  <a href="StyleDemo1.html">VIZITO VENDET</a></li>
-		  
-		  <li>
-		  <a href="FullWidth.html">EVENTET</a>	
-		  </li>
-		   <li class="dropdown">
-    <a href="javascript:void(0)" class="dropbtn">TRADICIONAL</a>
+		<nav id="mainMenu">
+			<ul><li><a href="projekti.html">HOMEPAGE</a></li>
+				<li><a href="StyleDemo1.html">VIZITO VENDET</a></li>
+				<li><a href="FullWidth.html">EVENTET</a>	
+				</li>
+		   
+				<li class="dropdown">
+		    		<a href="javascript:void(0)" class="dropbtn">TRADICIONAL</a>
     <div class="dropdown-content">
-      <a href="#">Sporte</a>
-      <a href="#">Ushqime</a>
-      <a href="#">Veshje</a>
- 
-		  </li>
-		  <li>
-		  	 <a href="LinkText.html">ME SHUME</a>
-		  </li>
-	</ul>	
-</nav></div>
+			        <a href="#">Sporte</a>
+			        <a href="#">Ushqime</a>
+			        <a href="#">Veshje</a>
+		 		</li>
+		  		<li><a href="LinkText.html">ME SHUME</a>
+		        </li>
+	        </ul>	
+        </nav>
+    </div>
 </header>
-<hr>
-<h3 
-	style="padding-left:22px; font-family: Georgia, sans-serif; font-weight: 400;">Deshironi te dini lokacionin e Kosoves?
-		<button 
-			id="myButton">Kliko
-		</button> 
-</h3>
 
+<hr>
 <div id="myBox" class="box">
- <div class="content" style="height:400px; width: 1000px;">
-  <span class="close">&times;
-  </span>
- <div id="mapholder" style="height: 400px; width: 950px;">
+ 	<div class="content" 
+ 		 style="height:400px; width: 1000px;">
+  		<span class="close">&times;</span>
+ 	<div id="mapholder" 
+ 		 style="height: 400px; width: 950px;">
 </div>
 
 <script type="text/javascript">
-  var box = document.getElementById('myBox');
-var btn = document.getElementById("myButton");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-  box.style.display = "block";
-}
-span.onclick = function() {
-  box.style.display = "none";
-}
-window.onclick = function(event) {
-  if (event.target == box) {
-    box.style.display = "none";
-  }
-}
+  			var box = document.getElementById('myBox');
+			var btn = document.getElementById("myButton");
+			var span = document.getElementsByClassName("close")[0];
+		btn.onclick = function()
+			 {
+  			 box.style.display = "block";
+             }
+		span.onclick = function()
+			 {
+  			 box.style.display = "none";
+			 }
+		window.onclick = function(event)
+             {
+ 				 if (event.target == box) 
+ 				 {
+    				box.style.display = "none";
+                 }
+			 }
 </script>
 
 <script>
-function myMap() {
-var mapProp= {
-    center:new google.maps.LatLng(42.667542,21.166191),
-    zoom:7
-};
-var map=new google.maps.Map(document.getElementById("mapholder"),mapProp);
-}
+	function myMap() 
+		{
+			var mapProp= {center:new google.maps.LatLng(42.667542,21.166191),zoom:7};
+			var map=new google.maps.Map(document.getElementById("mapholder"),mapProp);
+        }
 </script>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdjsAV3AFvuPs4WJHk-GfBXmaxG4mOR_c&callback=myMap" type="text/javascript"></script>
-<h2 style="font-family: Gerogia, sans-serif; color:rgb(87,186,232)">E dini tash?</h2>
-<section id="presion">
+<script 
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDdjsAV3AFvuPs4WJHk-GfBXmaxG4mOR_c&callback=myMap" type="text/javascript"></script>
+	
+	<section id="presion">
 </script>
+
 <hr>
 	<article>
        
-        <img src="prishtina/giphy.gif"  style="width:100%; height:250px;" >
+        <img src="Kosovo.jpg" alt="Kosova" style="width:95%; height:150px;" >
+
     
         <table>
-  <tr style="height:30px ;">
-    <th style="width:30%"><h2>Sunny Hill Festival</h2></th>
-    <th><h2>Beer Fest</h2></th>
-    <th><h2>Doku Fest</h2></th>
-  </tr>
-  <tr>
-    <td style="width:30%"> 
-        <img src="sunnyhillfestival.jpg"style="width:100%">
-        </td>
-    <td style="width:30%">
-    <img src="beerfest.jpg" style="width:100%">
-    </td>
+			    <tr style="height:30px ;">
+					    <th style="width:30%">
+					    <h2>Sunny Hill Festival</h2></th>
+					    <th><h2>Beer Fest</h2></th>
+					    <th><h2>Doku Fest</h2></th>
+			    <tr>
+				    <td style="width:30%"> 
+				        	<img src="SunnyhillFestival.jpg"style="width:100%">
+				    </td>
 
-    <td style="width:30%">
-    <img src="dokufest1-15edition.jpg" style="width:100%">
-    </td>
-  </tr>
+				    <td style="width:30%">
+				    		<img src="beerfest.jpg" style="width:100%">
+				    </td>
+
+				    <td style="width:30%">
+				    		<img src="dokufest1-15thedition.jpg" style="width:100%">
+				    </td>
+			 	</tr>
   <tr>
     <td>
-    	Sunny hill eshte festivali me i popullarizuar ne Kosove deri me tash.Qëllimi ynë është të krijojmë një festival të një standardi të lartë, i cili do ta vendosë Prishtinën dhe Kosovën në hartën e muzikës dhe festivalit si një vend që ia vlen të vizitojë, një vend që e do muzikën dhe e di se si të argëtohet.
-   		Ne duam të tërheqim vizitorë nga e gjithë bota për të ardhur dhe për të vizituar vendin tonë dhe për të shijuar festivalin, dhe shfaqje nga dhjetra artistë të zhanreve të ndryshme.Prej te cileve marin pjese edhe artist nga Kosava dhe vendet tjera me fame boterore.
+    	Sunny Hill eshte festivali me i popullarizuar ne Kosove deri me tash.Një festival ky i një standardi të lartë, i cili vendos Prishtinën dhe Kosovën në hartën e muzikës dhe festivalit si një vend që ia vlen të vizitohet, një vend që e do muzikën dhe e di se si të argëtohet.
+   		Ne duam të tërheqim vizitorë nga e gjithë bota për të ardhur dhe për të vizituar vendin tonë dhe për të shijuar festivalin me shfaqje nga dhjetra artistë të zhanreve të ndryshme.Prej te cileve marin pjese edhe artist nga Kosova dhe vendet tjera me fame boterore.
    	</td>
     <td>
-    	BeerFest eshte festivali me i madh ne Kosove.Ai ka filluar ne vitin 2011 dhe dita e dites behet festivali me i vizituar.Ku cdo vit prezentohen shijet me te mira te birres.Per ju qe do e vizitoni Festivalin e Birres dhe Veres do te jete nje pervoje mahnitese. Do te keni mundesi te degjoni live muzike te zhanreve te ndryshme, te argetoheni me lojera dhe me befasira tjera duke shijuar birre dhe vere ne nje ambient te hapur dhe atmosfere te mrekullueshme.
+    	BeerFest eshte festivali me i madh i birres ne Kosove.Ai ka filluar ne vitin 2011 dhe dita e dites behet festivali me i vizituar.Ku cdo vit prezentohen shijet me te mira te birres.Per ju qe do e vizitoni Festivalin e Birres dhe Veres do te jete nje pervoje mahnitese. Do te keni mundesi te degjoni live muzike te zhanreve te ndryshme, te argetoheni me lojera dhe me befasira tjera duke shijuar birre dhe vere ne nje ambient te hapur dhe atmosfere te mrekullueshme.
    	    Ne menyre qe te jemi ne te njejtin trend me vendet e tjera te botes , nje eveniment i tille, cdo vit organizohet edhe ne kryeqytetin tone Prishtine.
     </td>
     <td>
-    	Doku Fest eshte festivali Internacional i Dokumentarit dhe Filmit te metrazhit te shkurter ne Kosove.Cdo vit ky festival organizohet ne qendren e Prizrenti gjate muajit Gusht.Ky event ka bere qe te bashkohen ne nje vend shume artist vendor dhe nderkombtar dhe audiencen ne pergjithesi.
+    	Doku Fest eshte Festivali Internacional i Dokumentarit dhe Filmit te metrazhit te shkurter ne Kosove.Cdo vit ky festival organizohet ne qendren e Prizrenti gjate muajit Gusht.Ky event ka bere qe te bashkohen ne nje vend shume artist vendor dhe nderkombtar dhe audiencen ne pergjithesi.
 	</td>
-	</tr>
- 
-<hr>
 
+	</tr>
+		<tr>
+            <td>
+                <div class="icons">
+                     <a href=https://www.instagram.com/sunnyhillfestival/>
+                        <img src=prishtina/sunny.png height=40 width=40></a>
+                     <a href=https://www.facebook.com/sunnyhillfestival>
+                    	<img src=prishtina/facebook.png height=40 width=40></a>
+                     <a href=https://www.instagram.com/sunnyhillfestival/?hl=en>
+                    	 <img src=prishtina/insta.png height=40 width=40></a>
+                     <a href=https://twitter.com/festivalsunny?lang=en>
+                    	 <img src=prishtina/twitter.png height=40 width=40></a>
+            </td>
+
+            <td>
+                    <a href=https://www.facebook.com/beerandwinefestival>
+                        <img src=prishtina/facebook.png height=40 width=40></a>
+                    <a href=https://www.instagram.com/explore/locations/875829641/wine-beer-fest-prishtina>
+                        <img src=prishtina/insta.png height=40 width=40></a>
+                    <a href=https://twitter.com/wineandbeerks>
+                        <img src=prishtina/twitter.png height=40 width=40></a>
+            </td>
+
+            <td>
+                    <a href=http://prifest.org>
+                        <img src=prishtina/pri.png height=40 width=40></a>
+                    <a href=https://www.facebook.com/prifest>
+                        <img src=prishtina/facebook.png height=40 width=40></a>
+                    <a href=https://www.instagram.com/prifest>
+                        <img src=prishtina/insta.png height=40 width=40></a>
+                    <a href=https://twitter.com/priffest?lang=en>
+                        <img src=prishtina/twitter.png height=40 width=40></a>
+            	</td>
+            </div>
+        </tr>
+	         <td><h2>Gjysme Maratona e Prishtines</h2></td>
+			 <td><h2>PRIFest</h2></td>
+			 <td><h2>Prishtina Jazz Festival</h2></td>
+	    </tr>
+		 <td style="width:30%">
+				<img src="marathon.jpg" style="width:100%">
+		 </td>
+
+		 <td style="width:30%">
+				<img src="prifest.jpg" style="width:100%">
+		 </td>
+
+		 <td style="width:30%">
+				<img src="jazz.jpg" style="width:100%">
+		 </td>
+		</tr>
+		<tr>
+		 <td>
+            Gjysmë-Maratona e Prishtinës është një ngjarje e organizuar nga Ministria e Kulturës dhe Sporteve. Arsyeja kryesore e kësaj gjysmë maratone është promovimi i vlerave të paqes, bashkëjetesës dhe përsosmërisë në sport, dhe kjo është arsyeja që motoja e këtij maratoni është "Vrapo për Paqe dhe Tolerancë". Në këtë gjysmë maratonë marrin pjesë njerëz nga vende të ndryshme , si: Kosova, Kenia, Maroku, Hungaria, Ukraina, Suedia, Shqipëria, Maqedonia, Serbia, Bullgaria dhe Moldavia, ku të gjithë pjesëmarrësit do të marrin certifikatat, rangun dhe kohën e mbarimit, por të rinjtë më të mirë në kategorinë e lartë, burra dhe gra do të marrin nga gjithsej 12.000 euro.
+         </td>
+         <td>
+         	PRIFest(Prishtina Internacional Film Fest)eshte nje festival ku promovohen filmat  që mbahet çdo vit në Prishtinë, Kosovë.Aty shfaqen prodhime kinematografike ndërkombëtare në rajonin e Ballkanit dhe më gjerë si dhe tërheq vëmendjen për industrinë e filmit kosovar.Ukrijua ne vitin 2008 ndersa per here te pare u mbajte ne vitin 2009.Zgjat 5 dit,dhe kete vit ky festival shenon edicionin e 12-te.
+         </td>
+         <td>
+            Prishtina Jazz Festival është një festival muzikor ku artistët e xhazit nga e gjithë bota performojne. Mbahet çdo vit në Tetor dhe Nëntor, në teatrin ODA. Prishtina Jazz Festival ka pritur artistë si Uri Caine, Tom Kennedy, Reggie Washingto, Giulio Martino, Willard Dyson,Bob Albanese, Hans-Joachim Roedelius, Robin Verheyen, Aki Rissanen, Peppe La Pussata, Tim Story, Francesco D'Errico, dhe Yiotis Kiourtisoglou e shume e shume tjere.Kete vit organizon edicionin e 16-te.
+         </td>
+        </tr>
+
+        <tr>
+        	<td>
+        		<div class="icons">
+ 					<a href=https://www.facebook.com/prishtina.halfmarathon/>
+                        <img src=halfMarathon.png height=40 width=40></a>
+                    <a href=https://www.instagram.com/prishtinamarathon2020/>
+                    	<img src=marathon_insta.png height=40 width=40></a>
+            </td>
+            <td>
+ 					<a href=https://www.facebook.com/prifest/>
+                        <img src=PriFilmFest.png height=40 width=40></a>
+                    <a href="https://www.instagram.com/prifest/">
+                    	<img src=prifest_insta.png height=40 width=40></a>
+            </td>
+            <td>
+ 				<a href=https://www.facebook.com/prishtinajazzfest/>
+                        <img src=jazzFest.png height=40 width=40></a>
+            </td>
+        </div>
+    </tr>
+
+<hr>
+        <section>
+ <div class="jtpl-breadcrump breadcrumb-options">
+        <div data-container="navigation">  
+        </div>
+ </div>
+
+ <div class="jtpl-content content-options cc-content-parent">
+          <div id="content_area"
+               data-container="content">
+          <div id="content_start">
+</div>
+        
+        <div id="cc-matrix-2700748583">
+        <div 
+            id="cc-m-10008420583" 
+            class="j-module n j-sharebuttons ">
+        <div 
+            class="cc-sharebuttons-element cc-sharebuttons-size-16 cc-sharebuttons-style-colored cc-sharebuttons-design-square cc-sharebuttons-align-left">
+
+            <a class="cc-sharebuttons-facebook" 
+                href="http://www.facebook.com/sharer.php?u=https://www.hotelgracanica.com/things-to-do/festivals-events/&amp;t=Festivals%20%26%20Events" 
+                title="Facebook" 
+                target="_blank">
+            </a>
+            <a class="cc-sharebuttons-twitter" 
+                href="http://twitter.com/share?text=Festivals%20%26%20Events&amp;url=https%3A%2F%2Fwww.hotelgracanica.com%2Fthings-to-do%2Ffestivals-events%2F" title="Twitter" 
+                target="_blank">
+            </a>
+        </div>
+</div>
+<div 
+    id="cc-m-10012998383" 
+    class="j-module n j-header ">
+   <h1 
+    class="" id="cc-m-header-10012998383">Festivalet &amp; Eventet ne Kosove
+   </h1>
+</div>
+
+<div id="cc-m-10005745083" 
+    class="j-module n j-text ">
+<p>
+    <span style="color: #666666;">
+        Përveç festivaleve dhe ngjarjeve të listuara më poshtë, shikoni këto vende - ndër shumë të tjera - për muzikë të rregullt live:
+    </span>
+</p>
+<ul>
+    <li>
+        <span style="color: #454545;">
+            <a  href="https://www.facebook.com/pages/Zanzi-Jazz-Bar/1446082938950508?ref=ts&amp;fref=ts" 
+                target="_blank"
+                title="https://www.facebook.com/pages/Zanzi-Jazz-Bar/1446082938950508?ref=ts&amp;fref=ts" 
+                style="color: #454545;">Zanzi Jazz Bar
+            </a>, Prishtine
+        </span>
+    </li>
+
+    <li>
+        <span style="color: #454545;">
+            <a  href="http://www.somabookstation.com/events" 
+                target="_blank"
+                title="http://www.somabookstation.com/events" 
+                style="color: #454545;">Soma Book Station
+            </a>,Prishtine
+        </span>
+    </li>
+
+    <li>
+        <span style="color: #454545;">
+            <span   color="#454545" 
+                    style="color: #454545;">
+                    <a  href="https://www.facebook.com/menzaramizsadiku/" 
+                        target="_blank" 
+                        title="https://www.facebook.com/menzaramizsadiku/" 
+                        style="color: #454545;">Menza Ramiz Sadiku
+                    </a>, Prishtine
+            </span>
+        </span>
+    </li>
+
+    <li>
+        <span style="color: #454545;">
+            <a href="https://www.facebook.com/Termokiss/"
+             target="_blank" 
+             title="https://www.facebook.com/Termokiss/" 
+             style="color: #454545;">Termokiss
+            </a>, Pristina
+        </span>
+    </li>
+
+    <li>
+        <span style="color: #454545;">
+            <span color="#454545" 
+                  style="color: #454545;">
+                  <span style="color: #454545;">
+                    <a href="https://www.facebook.com/rockuzine/" 
+                    target="_blank" title="https://www.facebook.com/rockuzine/" 
+                    style="color: #454545;">Rockuzine
+                    </a>
+                  </span>, Prishtina
+              </span>
+          </span>
+    </li>
+
+    <li>
+        <span style="color: #454545;">
+            <span color="#454545" style="color: #454545;">
+                <span style="color: #454545;">
+                    <a href="https://www.facebook.com/ditenatcafe/" 
+                    target="_blank" 
+                    title="https://www.facebook.com/ditenatcafe/" 
+                    style="color: #454545;">Dit' e Nat'
+                    </a>
+                </span>, Prishtine
+            </span>
+        </span>
+    </li>
+</ul>
+
+<div id="cc-m-10779866383" 
+class="j-module n j-htmlCode ">
+<iframe id="allevents" 
+        src="https://allevents.in/plugin/custom-events.php?key=6a1a0a2752" 
+        width="800" 
+        height="300"
+        style="border:0; width:600px; height:300px;max-width: initial;" 
+        name="allevents">
+</iframe>
+</div>
+<div id="cc-m-10753165483" 
+    class="j-module n j-header ">
+    <h3 class="" 
+        id="cc-m-header-10753165483">Prishtina Jazz Week, Mars
+    </h3>
+</div>
+    <div id="cc-m-10753165583" class="j-module n j-text ">
+        <p>
+            Performanca nga muzikantë të xhazit vendas dhe ndërkombëtar        
+        </p>
+
+<p>
+    <span style="color: #454545;">
+        <a href="https://www.facebook.com/prishtinajazzweek" 
+        target="_blank" 
+        title="https://www.facebook.com/prishtinajazzweek" 
+        style="color: #454545;">https://www.facebook.com/prishtinajazzweek  
+        </a>
+    </span>
+</p>
+</div>
+    <div id="cc-m-10185486883" 
+        class="j-module n j-header ">
+        <h3 class="" 
+        id="cc-m-header-10185486883">DAM Festival, Prishtina, Mars
+        </h3>
+    </div>
+    <div id="cc-m-10185487083" 
+    class="j-module n j-text ">
+    <p>
+        Festivali nderkombetar i muzikanteve te rinj
+    </p>
+<p>
+    <span style="color: #454545;">
+        <a href="https://www.facebook.com/damfestival" 
+        target="_blank" 
+        title="https://www.facebook.com/damfestival" 
+        style="color: #454545;">https://www.facebook.com/damfestival
+        </a>
+    </span>
+</p>
+</div>
+    <div id="cc-m-10340133783" 
+    class="j-module n j-header ">
+    <h3 class="" 
+        id="cc-m-header-10340133783">FerFilm, Ferizaj, Prill
+    </h3>
+</div> 
+    <div id="cc-m-10340133883" 
+         class="j-module n j-text ">
+        <p>
+            Festivali nderkombetar i filmit
+        </p>
+<p>
+    <span style="color: #454545;">
+        <a href="https://www.facebook.com/ferfilm.eu/" 
+        target="_blank" 
+        title="https://www.facebook.com/ferfilm.eu/" 
+        style="color: #454545;">http://ferfilm.eu
+        </a>
+    </span>
+</p>
+</div>
+    <div id="cc-m-10038701783"
+    class="j-module n j-header ">
+    <h3 class="" 
+        id="cc-m-header-10038701783">Chopin Piano FEST, Prishtina, Prill
+    </h3>
+</div>
+    <div id="cc-m-10038701883" 
+         class="j-module n j-text ">
+    <p>
+    <span 
+    style="color: #666666; 
+           font-family: Lato, 
+           sans-serif; font-size: 14px; 
+           line-height: 24px;">Performanca në piano nga pianistë vendas dhe ndërkombëtarë 
+    </span>
+    </p>
+<p>
+    <span style="font-size: 14px; color: #666666;">
+        <span color="#2B2B2B" 
+              face="Lato, sans-serif"
+              style="font-family: Lato, sans-serif;">
+            <span style="line-height: 24px;">
+                <a href="https://www.facebook.com/pages/Chopin-Piano-Fest-Prishtina/739628919487119?fref=ts" 
+                   target="_blank" 
+                   title="https://www.facebook.com/pages/Chopin-Piano-Fest-Prishtina/739628919487119?fref=ts" 
+                   style="color: #666666;">https://www.facebook.com/pages/Chopin-Piano-Fest-Prishtina/739628919487119?fref=ts
+                </a>
+            </span>
+        </span>
+    </span>
+</p>
+</div>
+    <div id="cc-m-10011616283" 
+         class="j-module n j-header ">
+        <h3 class="" 
+            id="cc-m-header-10011616283">Hasi Jehon, Gjonaj/Prizren, Maj
+        </h3>
+    </div>
+    <div id="cc-m-10011617083" class="j-module n j-text ">
+        <p>
+            <span style="color: rgb(102, 102, 102);" 
+                  data-mce-style="color: #666666;">Festivali rajonal i muzikës popullore dhe vallëzimit folklorik
+            </span>
+        </p>
+
+<p>
+    <span style="color: rgb(102, 102, 102);" 
+          data-mce-style="color: #666666;">
+        <a 
+            data-mce-href="https://www.facebook.com/pages/Hasi-Jehon/440396066050237" 
+            href="https://www.facebook.com/pages/Hasi-Jehon/440396066050237" 
+            target="_blank" title="https://www.facebook.com/pages/Hasi-Jehon/440396066050237" 
+            style="color: rgb(102, 102, 102);" 
+            data-mce-style="color: #666666;">https://www.facebook.com/pages/Hasi-Jehon/440396066050237
+        </a>
+    </span>
+</p>
+
+<div id="cc-m-10756510083" 
+     class="j-module n j-header ">
+     <h3 class="" 
+         id="cc-m-header-10756510083">Erdhlezeti Festival, Prishtina, Maj
+     </h3>
+ </div>
+ <div id="cc-m-10756510583" 
+      class="j-module n j-text ">
+    <p>
+        Festivali nderkombetar i muzikes
+    </p>
+<p>
+    <span style="color: #454545;">
+        <a href="https://www.facebook.com/erdhlezeti/" 
+           target="_blank" 
+           title="https://www.facebook.com/erdhlezeti/" 
+           style="color: #454545;">https://www.facebook.com/erdhlezeti/
+        </a>
+    </span>
+</p>
+<div id="cc-m-10005694583" 
+     class="j-module n j-header ">
+     <h3 class="" 
+        id="cc-m-header-10005694583">Polip, Prishtina, Maj
+     </h3>
+ </div>
+ <div id="cc-m-10005694683" 
+      class="j-module n j-text ">
+      <p>
+        <span style="color: #666666;">Festivali nderkombetar i letersise</span>
+</p>
+<p>
+    <span style="color: #666666;">
+        <a href="http://polipfestival.wordpress.com/" 
+           target="_blank" title="http://polipfestival.wordpress.com/" 
+           style="color: #666666;">http://polipfestival.wordpress.com/
+        </a>
+    </span>
+</p>
+<p>
+    <span style="color: #666666;"> </span>
+</p>
+</div>
+<div id="cc-m-10149521583" 
+     class="j-module n j-header ">
+     <h3 class="" 
+         id="cc-m-header-10149521583">North City Jazz &amp; Blues Festival, Mitrovica / Zvecan, Maj
+     </h3>
+ </div>
+ <div id="cc-m-10149521683" 
+      class="j-module n j-text ">
+      <p>
+         <span style="color: #454545;">
+            <a href="http://www.northcityfest.org/" 
+               target="_blank" title="http://www.northcityfest.org/" 
+               style="color: #454545;">http://www.northcityfest.org
+            </a>/
+        </span>
+</p>
+<div id="cc-m-10227934283" 
+     class="j-module n j-header ">
+     <h3 class="" 
+         id="cc-m-header-10227934283">ReMusica, Prishtina, Maj/Qershor
+    </h3>
+</div>
+<div id="cc-m-10227934383" 
+     class="j-module n j-text ">
+    <p>
+        Festival ndërkombëtar i muzikës bashkëkohore    
+    </p>
+<p>
+    <span style="color: #454545;">
+        <a href="http://remusicafestival.com/" 
+           target="_blank" 
+           title="http://remusicafestival.com/" 
+           style="color: #454545;">http://remusicafestival.com/
+        </a>
+    </span>
+    and 
+    <span style="color: #454545;">
+        <a href="https://www.facebook.com/ReMusicaFestival" 
+           target="_blank" 
+           title="https://www.facebook.com/ReMusicaFestival" 
+           style="color: #454545;">https://www.facebook.com/ReMusicaFestival
+        </a>
+    </span>
+</p>
+<div id="cc-m-10005697183" 
+     class="j-module n j-header ">
+     <h3 class="" 
+         id="cc-m-header-10005697183">BunarFest, Prizren, Qershor
+     </h3>
+ </div>
+ <div id="cc-m-10005697283" 
+      class="j-module n j-text ">
+    <p>
+        <span style="color: #666666;">Gara e trapit të lumit duke përdorur tubat e brendshëm të gomave të traktorit</span>
+    </p>
+
+<p>
+    <span style="color: #666666;">
+        <a href="http://40bunarfest.org/" 
+           target="_blank" 
+           title="http://40bunarfest.org/" 
+           style="color: #666666;">http://40bunarfest.org/
+        </a> and 
+    <span style="color: #454545;">
+        <a href="https://www.facebook.com/bunarfest" 
+           target="_blank" 
+           title="https://www.facebook.com/bunarfest"
+           style="color: #454545;">https://www.facebook.com/bunarfest
+        </a>
+    </span>
+</span>
+</p>
+<div id="cc-m-10265862283" 
+     class="j-module n j-header ">
+     <h3 class="" 
+         id="cc-m-header-10265862283">FemArt, Pristina, June
+     </h3>
+</div>
+<div id="cc-m-10265862383" 
+     class="j-module n j-text ">
+    <p>
+       Platformë për fillimin dhe prezantimin e ideve dhe krijimeve që sjellin koncepte feministe dhe zhvillimin e tyre në Kosovë. Shfaqjet teatrore, Filmat (Dokumentarë, Pantallona të shkurtra dhe Karakteristikat), Ekspozita, Performanca, Koncerte, Ligjërata, Punëtori, Diskutime në Panel dhe Prezantime.    
+    </p>
+<p>
+    <span style="color: #454545;">
+        <a href="http://femart-ks.com/en/" 
+           target="_blank" 
+           title="http://femart-ks.com/en/" 
+           style="color: #454545;">http://femart-ks.com/en/
+        </a> and  
+        <a href="https://www.facebook.com/FemartPrishtina/" 
+           target="_blank" 
+           title="https://www.facebook.com/FemartPrishtina/" 
+           style="color: #454545;">https://www.facebook.com/FemartPrishtina/
+        </a>
+    </span>
+
+</p>
+<p>
+    <span style="color: #454545;">
+        <a href="https://twitter.com/FemArtfestival" 
+           target="_blank" 
+           title="https://twitter.com/FemArtfestival" 
+           style="color: #454545;"> 
+        </a>
+    </span>
+</p>
+</div>
+</section>
 <footer>
 <form method="get" action="">
 
@@ -163,12 +645,13 @@ var map=new google.maps.Map(document.getElementById("mapholder"),mapProp);
 						<p>Email:<a href="contact@mydomain.com">contact@mydomain.com</a>  </p>
 					</td>
 					<td rowspan="5">
-<p class="e">
-	<input type="name" name="Emri"value="Name">
-</p>
-<p class="e">
-	<input type="Email" name="Email"value="Email">
-</p>
+	<p class="e">
+		<input type="name" name="Emri"value="Name">
+	</p>
+
+	<p class="e">
+		<input type="Email" name="Email"value="Email">
+	</p>
 
 
 						<p>
@@ -210,6 +693,6 @@ var map=new google.maps.Map(document.getElementById("mapholder"),mapProp);
 			</div>
 		</form>
 
-</footer>
-</body>
+      </footer>
+   </body>
 </html>

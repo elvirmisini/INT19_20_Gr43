@@ -92,7 +92,10 @@ li.dropdown {
   display: block;
   text-align: left;
 }
-
+a.map
+{
+	padding-left: 1em;
+}
 .dropdown-content a:hover 
 {
 	background-color: #E2494B;
@@ -150,7 +153,7 @@ div.b
 	background-position: center;
 	position: top;
 	border-radius: 5%;
-}		
+}
 div.posht
 {
 	height: 100px;
@@ -315,5 +318,4 @@ div.a p:hover
 div.posht:hover
 {
 	background-color: #E2494B;
-	font-weight: bold;
 }

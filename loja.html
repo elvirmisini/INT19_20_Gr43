@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML5 Tetris</title>
+        <link rel='stylesheet' href='stylegame.css' />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+           $(document).ready(function(){
+             $("#paraqit").click(function(){
+                $("#paneli").slideToggle("slow");
+                $("#paraqit").text("Cilat jane rregullat e lojes?");
+             });
+           });
+        </script>
+        <style> 
+            #paraqit, #paneli{
+                padding: 5px;
+                text-align: center;
+                background-color: #e5eecc;
+                border: solid 1px #999999;
+            }
+            #paneli{
+                padding: 50px;
+                display: none;
+            }
+    <style>
+
+        .Ldjathtas {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+   animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:0px; top:50px;}
+  50%  {background-color:blue; left:0px; top:100px;}
+  75%  {background-color:green; left:0px; top:50px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:0px; top:50px;}
+  50%  {background-color:blue; left:0px; top:100px;}
+  75%  {background-color:green; left:0px; top:50px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+        /*reset*/ h1,h4 {margin:0;}
+
+/* basic styles */
+h1 { margin-bottom: 10px; }
+div { 
+  width: 33%;
+  padding:0;
+  margin: 50px 0;
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.4); 
+  color: #1F1F1F;
+}
+
+/* backgrounds */
+.day { background-color: #cbcbcb; }
+.sunset { background-color: #f8a300; }
+.night { background-color: #545454; }
+
+.mLojes {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+   animation-iteration-count: infinite;
+   padding: 10px auto;
+
+    </style>
+<script>
+function shtoTekst()
+        {
+            var t1 = "<p>Tekst i shkruar me HTML!</p>";
+            var t2 = $("<p></p>").text("Tekst i shtuar me JQuery!");
+            var t3 = document.createElement("p");
+            t3.innerHTML = "Tekst i shtuar me DOM model!";
+            
+            $("body").append(t1, t2, t3); //shto dhe bashko elementet
+            
+        }
+</script>        
+
+    </head>
+    <body>
+        <main>
+        <div class="Lmajtas">
+            <div id="paraqit">Cilat jane rregullat e lojes</div>
+        <div id="paneli">Luani me tastet me shigjeta dhe mundohuni ti rendisni sa me mire figrurat</div>
+        </div>
+        <div class="loja">
+        <audio id="clearsound" src="sound/pop.ogg" preload="auto"></audio>
+        <canvas width='300' height='600'></canvas>
+        <button id="playbutton" onclick="playButtonClicked();">Play
+        </button>
+        <script src='js/tetris.js'></script>
+        <script src='js/controller.js'></script>
+        <script src='js/render.js'></script>
+
+        </div>
+        <div class="Ldjathtas">
+            
+<div class="video1">
+<video width="380" controls>
+    <source src="video.mp4" type="video/mp4">
+</video>
+    </div>
+    <div class="audio1">  
+   <audio controls>
+  
+  <source src="nexhmije_pagarusha_baresha.mp3" type="audio/mpeg">
+
+</audio>
+
+        </div>
+
+        <script>
+    $(document).ready(function(){
+    var d = new Date();
+    var n = d.getHours();
+    if (n > 19 || n < 6)
+      // If time is after 7PM or before 6AM, apply night theme to ‘body’
+      document.body.className = "night";
+    else if (n > 16 && n < 19)
+      // If time is between 4PM – 7PM sunset theme to ‘body’
+      document.body.className = "sunset";
+    else
+      // Else use ‘day’ theme
+      document.body.className = "day";
+})
+  </script>
+    <script>
+        let d = new Date();
+        alert("Today's date is " + d);
+    </script>
+    </main>
+    </body>
+</html>

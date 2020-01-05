@@ -43,3 +43,15 @@ function Rrrmore() {
     moreText.style.display = "inline";
   }
 }
+$(document).ready(function(){
+               
+               $("#p1").hover(function(){
+                  alert("Keni kaluar mbi elementin p1"); 
+               });
+               $("input").focus(function(){
+                  $(this).css("background-color", "#3FC"); 
+               });
+               $("input").blur(function(){
+                  $(this).css("background-color", "#6f6"); 
+               });
+           });

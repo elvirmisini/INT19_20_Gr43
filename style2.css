@@ -8,6 +8,7 @@ body{
 	width: 1300px;
 	margin: 70px auto;
 	background: #eee;
+
 }
 .sin-team {
 	width: 45%;
@@ -18,6 +19,7 @@ body{
 	color: #fff;
 	background: #262630;
 	border-radius: 15px;
+
 }
 .sin-team img{
 	width: 155px;
@@ -28,7 +30,9 @@ body{
 	border: 5px solid lightgrey;
 	shape-outside: circle();
 }
-
+/* h1{
+	text-align: center;
+} */
 h2{
 	 font-family: audiowide;
 }
@@ -37,8 +41,27 @@ p {
 	line-height: 15px;
 }
 h4{
-	color: darkblue;
+	color: #200080;
+	font-size: 19px;
 }
+h3 {
+	color: 	#3300cc;
+}
+h1{
+	font-family: 'CoreCircus';
+	font-weight:  normal;
+	color: black;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white , -1px 1px 0 white, 1px 1px 0 white ,1px 0px 0px #98b5cc;
+    text-align: center;
+    background-origin: padding-box;
+    border: 5px dashed black;
+	}
+h1::before { 
+content: attr(data-heading);
+position: absolute;
+left: 0;
+font-family: 'CoreCircus2DDot1' 
+color: white;}
 footer {
 	background-color: white;
 }

@@ -23,8 +23,15 @@
                 padding: 50px;
                 display: none;
             }
+            <style>
+#div1 {
+  width: 320px;
+  height: 120px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+}
+</style>
     <style>
-
         .Ldjathtas {
   width: 100px;
   height: 100px;
@@ -36,7 +43,6 @@
   animation-duration: 4s;
    animation-iteration-count: infinite;
 }
-
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
   0%   {background-color:red; left:0px; top:0px;}
@@ -45,7 +51,6 @@
   75%  {background-color:green; left:0px; top:50px;}
   100% {background-color:red; left:0px; top:0px;}
 }
-
 /* Standard syntax */
 @keyframes example {
   0%   {background-color:red; left:0px; top:0px;}
@@ -54,9 +59,7 @@
   75%  {background-color:green; left:0px; top:50px;}
   100% {background-color:red; left:0px; top:0px;}
 }
-
         /*reset*/ h1,h4 {margin:0;}
-
 /* basic styles */
 h1 { margin-bottom: 10px; }
 div { 
@@ -67,12 +70,10 @@ div {
   background: rgba(255, 255, 255, 0.4); 
   color: #1F1F1F;
 }
-
 /* backgrounds */
 .day { background-color: #cbcbcb; }
 .sunset { background-color: #f8a300; }
 .night { background-color: #545454; }
-
 .mLojes {
   width: 100px;
   height: 100px;
@@ -84,8 +85,35 @@ div {
   animation-duration: 4s;
    animation-iteration-count: infinite;
    padding: 10px auto;
-
     </style>
+
+
+
+
+
+
+
+
+    <script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+
+
+
+
+
 <script>
 function shtoTekst()
         {
@@ -97,10 +125,43 @@ function shtoTekst()
             $("body").append(t1, t2, t3); //shto dhe bashko elementet
             
         }
-</script>        
+</script>      
 
+<script>
+function clickCounter() {
+  if(typeof(Storage) !== "undefined") {
+    if (localStorage.clickcount) {
+      localStorage.clickcount = Number(localStorage.clickcount)+1;
+    } else {
+      localStorage.clickcount = 1;
+    }
+    document.getElementById("result").innerHTML = "You have clicked the button " + localStorage.clickcount + " time(s).";
+  } else {
+    document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+  }
+}
+</script>  
     </head>
     <body>
+
+
+
+
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<br>
+<img id="drag1" src="ff/t.jpg" draggable="true" ondragstart="drag(event)" width="300" height="100">
+
+
+
+
+
+
+<p><button onclick="clickCounter()" type="button">Click me!</button></p>
+<div id="result"></div>
+<p>Click the button to see the counter increase.</p>
+<p>Close the browser tab (or window), and try again, and the counter will continue to count (is not reset).</p>
+
         <main>
         <div class="Lmajtas">
             <div id="paraqit">Cilat jane rregullat e lojes</div>
@@ -114,7 +175,6 @@ function shtoTekst()
         <script src='js/tetris.js'></script>
         <script src='js/controller.js'></script>
         <script src='js/render.js'></script>
-
         </div>
         <div class="Ldjathtas">
             
@@ -127,11 +187,8 @@ function shtoTekst()
    <audio controls>
   
   <source src="nexhmije_pagarusha_baresha.mp3" type="audio/mpeg">
-
 </audio>
-
         </div>
-
         <script>
     $(document).ready(function(){
     var d = new Date();
@@ -141,7 +198,7 @@ function shtoTekst()
       document.body.className = "night";
     else if (n > 16 && n < 19)
       // If time is between 4PM – 7PM sunset theme to ‘body’
-      document.body.className = "sunset";
+   document.body.className = "sunset";
     else
       // Else use ‘day’ theme
       document.body.className = "day";

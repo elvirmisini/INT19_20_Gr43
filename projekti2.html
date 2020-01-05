@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html manifest="demo.appcache">
-<head>
+<head><title>Projekti2</title>
 	<meta charset="utf-8">
-	<title> Projekti2 </title>
-	<link rel="stylesheet" type="text/css" href="style2.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Gelasio&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="struktura.css">
+<link rel="stylesheet" type="text/css" href="style2.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<style type="text/css">
+	.flex{ display: flex; justify-content: space-between; }
+
+</style>
+
+
 <script>
 $(document).ready(function(){
   $("h5").on({
@@ -21,9 +28,45 @@ $(document).ready(function(){
 });
 </script>
 
+
 </head>
+
+
+
 <body>
-	<b><h1 data-heading="">  Vendët më të vizitura në Kosovë </b></h1>
+<script src="projekti.js" type="text/JavaScript"></script>
+	<header><div class="flex">
+	<div class="left" >
+		<h1 style="line-height: 80%;"><firstletter>C</firstletter>OMPOSITION <br><small>Kosovo tour</small></h1></div>
+
+	<div class="right" >
+<nav id="mainMenu">
+	<ul><li><a href="projekti.html">HOMEPAGE</a></li>
+		<li>
+		  <a href="Projekti2.html">VIZITO VENDET</a></li>
+		  
+		  <li>
+		  <a href="Eventet.html">EVENTET</a>	
+		  </li>
+		   <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">TRADICIONAL</a>
+    <div class="dropdown-content">
+      <a href="sportet.html">Sporte</a>
+      <a href="ushqimet.html">Ushqime</a>
+      <a href="loja.html">Loja</a>
+ 
+		  </li>
+		  <li>
+		  	 <a href="MeShume.html">ME SHUME</a>
+		  </li>
+	</ul>	
+</nav></div>
+</div>
+</header>
+<main>
+
+
+	<b><h1 class="hh">  Vendët më të vizitura në Kosovë </b></h1>
   <div class="wrapper"> 
   	<div class="sin-team"> 
   	 <img src="prizren.jpg" alt="Foto e Prizrenit">
@@ -102,7 +145,7 @@ $(document).ready(function(){
 
 
 
-
+</main>
 <footer>
 <form method="get" action="">
 

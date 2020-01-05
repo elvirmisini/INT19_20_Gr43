@@ -1,4 +1,4 @@
-body{
+main{
 	background-color: lightblue;
 }
 
@@ -47,7 +47,7 @@ h4{
 h3 {
 	color: 	#3300cc;
 }
-h1{
+.hh{
 	font-family: 'CoreCircus';
 	font-weight:  normal;
 	color: black;
@@ -56,12 +56,3 @@ h1{
     background-origin: padding-box;
     border: 5px dashed black;
 	}
-h1::before { 
-content: attr(data-heading);
-position: absolute;
-left: 0;
-font-family: 'CoreCircus2DDot1' 
-color: white;}
-footer {
-	background-color: white;
-}

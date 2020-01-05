@@ -156,8 +156,7 @@ div.b
 }
 div.posht
 {
-	height: 100px;
-
+	height: 100px
 }
 div.c
 {
@@ -192,7 +191,6 @@ div.d p
 }
 div.e
 {
-
 	width:710px;
 	height: 450px;
 	background-position: center;
@@ -318,4 +316,8 @@ div.a p:hover
 div.posht:hover
 {
 	background-color: #E2494B;
+}
+footer
+{
+	padding-bottom: 1em;
 }
